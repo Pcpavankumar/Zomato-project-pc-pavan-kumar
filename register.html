@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register your Restaurant</title>
+    <link rel="icon" href="registerlogo.jpeg">
+    <style>
+        #st1{
+            text-align: center;
+            
+            margin-top: 30px;
+            font-size: x-large;
+            text-shadow: 1px 1px 1px whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: lightgoldenrodyellow;
+            backface-visibility: visible;
+            border: 2px inset blue;
+            height: 30px;
+            width: 30%;
+            margin-left: 35%;
+
+        }
+        #st2{
+            padding-left: 10px;
+            
+            font-style: italic;
+            margin-top: 30px;
+            font-size: large;
+            text-shadow: 1px 1px 1px green;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-bottom: 3px;
+            background-color:white;
+            backface-visibility: visible;
+            margin-left: 5px;
+            background-image: linear-gradient(wheat,whitesmoke);
+        }
+        #i{
+            background-color: white;
+            color: black;
+            background-origin: 2px;
+            height: 20px;
+            width: 5%;
+            border-radius: 10px;
+            
+        }
+        #i:hover{
+            background-color: rosybrown;
+            color: white;
+        }
+    </style>
+</head>
+<body background="registerimage2.jpg">
+    <h1 id="st1">Create Your Business orders</h1>
+    <form action="registersuccess.html">
+        <fieldset style="margin-left: 20px; margin-top: 60px; color: white;">
+            <legend >Personal details</legend>
+            <label style="padding-left: 40px; padding-top: 40px; color: white;" for="nm">First Name : </label>
+            <input type="text" id="nm" required=" " pattern="[A-za-Z]{3,20}" placeholder="First Name" name="">
+            <label style="padding-left: 80px; color: white;" for="ln">Last Name : </label>
+            <input type="text" id="ln" required=" " pattern="[A-za-Z]{3,20}" placeholder="Last Name" name="">
+            <label style="padding-left: 80px; color: white;" for="nm">Phone Number : </label>
+            <input type="text" id="nm" required=" " pattern="[6-9]{1}[0-9]{9}" placeholder="Ph no" name=""><br><br>
+            <label style="padding-left: 40px; color: white;" for="em">EMail : </label>
+            <input type="email" id="em" required=" " pattern="[a-Z0-9_.]+@[a-z]{2,}" placeholder="Email" name="">
+            <label style="padding-left: 110px; color: white;" for="s">Select your city : </label>
+            <input list="cities" id="s" required=" " placeholder="Select" name="">
+            <datalist id="cities">
+                <option>Andhra Pradesh</option>
+                <option>Karnakata</option>
+                <option>Kerala</option>
+                <option>Tamil Nadu</option>
+                <option>Maharastra</option>
+                <option>Telangana</option>
+                <option>Goa</option>
+            </datalist>
+            <label style="padding-left: 50px;" for="p">Pincode : </label>
+            <input type="text" id="p" required="[0-5]{6}[0-9]{6}" placeholder="Code" name=""><br><br><br>
+            <label style="padding-left: 350px;" for="p">Create your brand Name : </label>
+            <input type="text" id="p" required="[A-za-Z]{3,20}" placeholder="set name" name=""><br>
+            <input style="margin-left: 360px; margin-top: 30px;" type="checkbox">
+        <label for="" style="color: white;">Agree the terms and Conditions</label>
+        </fieldset><br><br>
+        
+        <h1 id="st2">Add your list of Items</h1><br>
+        <input style="margin-left: 90px; " type="checkbox">
+        <label style="color: white;" for="">Vegetarian items</label>
+        <input style="margin-left: 305px;" type="checkbox">
+        <label style="color: white;" for="">Non-Vegetarian items</label><br><br><br>
+        <label style="padding-left: 90px; color: white;" for="p">Qunatity of veg items : </label>
+            <input list="quantity" style="color: red">
+            <datalist id="quantity">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>more....</option>
+            </datalist>
+            <label style="padding-left: 107px; color: white;" for="p">Qunatity of Non-Veg items : </label>
+            <input list="quantity" id="p" style="color: red;">
+            <datalist id="quantity">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>more....</option>
+            </datalist><br><br>
+
+        
+        <label style="padding-left: 90px; color: white;" for="p">Create your List of Veg items : </label>
+            <input type="text" id="p" required="[A-za-Z]{3,200}" placeholder="Insert items" name="">
+            <label style="padding-left: 60px; color: white;" for="p">Create your List of Non-Veg items : </label>
+            <input type="text" id="p" required="[A-za-Z]{3,200}" placeholder="Insert items" name=""><br><br>
+            <p style="color: white; font-family: 'Courier New', Courier, monospace; margin-left: 20px;"><b>Description: </b></p>
+            <p style="color: white; font-family: Cambria, Cochin, Georgia, ; margin-left: 80px;font-size: larger; font-family:'Times New Roman';
+                 font-size: smaller; ">Embark on a gastronomic adventure with our diverse and delectable menu, meticulously crafted to tantalize your taste buds.<br>
+                At Pc restaurant , we take pride in offering a symphony of flavors that cater to every palate.</p>
+
+
+
+            <br>
+        <input id="i" style="margin-left: 50%; margin-top: 30px;" type="submit">
+        <br><br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="icon" href="signuplogo.jpeg">
+    <style>
+        h1{
+            margin-left: 45%;
+            margin-top: 100px;
+            color: black;
+            border: 5px groove white;
+            height: 28px;
+            width: 24%;
+            background-color: lightcoral;
+            text-align: center;
+            text-shadow: 1px 1px 1px gray;
+            padding-bottom: 5px;
+            font-size: 30px;
+        }
+        #i1{
+            margin-left: 620px;
+            color: white;
+            font-size: xx-large;
+        }
+        #b1{
+            margin-left: 640px;
+            background-color: blue;
+            border: 2px groove orange;
+            border-radius: 4px;
+            color: white;
+        }
+        #b1:hover{
+            background-color: blanchedalmond;
+            color: black;
+        }
+    </style>
+</head>
+
+    <body background="signinimage.webp">
+
+
+
+        <h1> Enter the details</h1><br><br><br>
+        <form action="success.html" target="_blank">
+            
+                <label style="margin-left: 600px; color: white; font-size: 20px;" for="fname">First Name : </label>
+                <input style="color: blue; background-color: bisque; " type="text" id="fname" required placeholder="FName" pattern="[a-Za-z]{3-8}"><br><br>
+               
+                <label style="margin-left: 600px; color: white; font-size: 20px;" for="lname">Last Name : </label>
+                <input style="color: blue; background-color: bisque; " type="text" id="lname" required placeholder="LName" pattern="[a-Za-z]{3-8}"><br><br>
+                
+                <label style="margin-left: 600px; color: white; font-size: 20px;" for="email">EMail : </label>
+                <input style="color: blue; background-color: bisque; " type="email" id="email" required placeholder="EMail" pattern="[a-Z0-9_.]+@[a-z]{2,}"><br><br>
+                
+                <label style="margin-left: 600px; color: white; font-size: 20px;" for="pwd"> Create a Password :</label>
+                <input style="color: blue; background-color: bisque; " type="text" id="pwd" required placeholder="Password"><br><br>
+                
+                <label style="margin-left: 600px; color: white; font-size: 20px;" for="pwd"> Re-Type Password :</label>
+                <input style="color: blue; background-color: bisque; " type="text" id="pwd" required placeholder="Password"><br><br><br>
+           
+                <input id="i1" type="checkbox" required="" > I agree the terms and conditions</intput>
+                <br><br>
+                
+                <a href="" >
+                    <button id="b1">submit</button>
+                </a>
+            
+        </form>
+    
+    </body>
+</html>

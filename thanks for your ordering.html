@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you for ordering</title>
+    <link rel="icon" href="thankyouorderinglogo.jpeg">
+    <style>
+        #i1{
+            margin-left: 40%;
+            margin-top: 15px;
+            color: white;
+            background-color: blue;
+            border-radius: 15px;
+            border: 3px inset green;
+        }
+        #i1:hover{
+            background-color: aquamarine;
+            color: black;
+        }
+    </style>
+</head>
+    <body background="thanksforyourorderimage.jpeg">
+        <h2 style="margin-left:40%;margin-top: 80px; text-align: center; border: 2px inset yellow; height: 30px; width: 27%; background-image: linear-gradient(green,red,blue);"><b>Thanks for your ordering......</b></h2>
+        <br><br>
+    
+        <form action="ordered.html">
+            <h2 style="margin-left: 300px; color: white; text-shadow: 1px 1px 1px green;">-Create your address-</h2>
+            <br>
+            <label  style="margin-left: 270px;color: white;" for="nm">Full Name : </label>
+            <input style="background-color: antiquewhite;" type="text" id="nm" required="" placeholder="Name" pattern="[A-za-Z]{3,18}">&nbsp;&nbsp;<br><br>
+            <label  style="margin-left: 270px;color: white;" for="n">Mobile Number : </label>
+            <input style="background-color: antiquewhite;" type="text" id="nm" required="" placeholder="Number" pattern="[6-9]{1}[0-9]{9}">&nbsp;&nbsp;<br><br>
+            <label style="margin-left: 270px;color: white;" for="a">House no., Area, Street, : </label>
+            <input style="background-color: antiquewhite;" type="text" id="a" required="" placeholder="House no., Area, Street, Sector, Village" pattern="[A-Za-z]{3,18}">&nbsp;&nbsp;<br><br>
+            <label style="margin-left: 270px;color: white;" for="lm">Land Mark : </label>
+            <input style="background-color: antiquewhite;" type="text" id="lm" required="" placeholder="Eg:- Tap academy" pattern="[A-Za-z]{3,18}">&nbsp;&nbsp;<br><br>
+            <label style="margin-left: 270px;color: white;" for="p">Pincode : </label>
+            <input style="background-color: antiquewhite;" type="text" id="p" required="" placeholder="pincode" pattern="[0-9]{6}">&nbsp;&nbsp;<br><br>
+            <label style="margin-left: 270px;color: white;" for="tc">Town/City : </label>
+            <input style="background-color: antiquewhite;" type="text" id="tc" required="" placeholder="town/city" pattern="[A-Za-z]{3,18}">&nbsp;&nbsp;<br><br>
+            <label style="margin-left: 270px;color: white;" for="">Select State</label>
+            <input list="Select State" placeholder="Select">
+            <datalist id="Select State">
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <option>Karnataka</option>
+                <option>Tamilnadu</option>
+                <option>Kerala</option>
+                <option>Gujarat</option>
+                <option>Himachal Pradesh</option>
+                <option>Maharastra</option>
+                <option>Goa</option>
+                <option>Odisha</option>
+                <option>Uttar Pradseh</option>
+                
+            </datalist><br><br>
+            <input id="i1" type="submit">
+            
+        <br><br>
+        </form></body></html>

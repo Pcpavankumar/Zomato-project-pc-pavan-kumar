@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addrestuarant</title>
+    <link rel="icon" href="restaurantlogo.jpg">
+    <style>
+        h3{
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 210px;
+            margin-top: 120px;
+            color: white;
+            text-size-adjust: 5px;
+            text-shadow: 0px 0px white;
+            font-weight: 400px;
+            font-size: 30px;
+        }
+        #p1{
+            font-family: cursive;
+            margin-left: 250px;
+            margin-top: 20px;
+            font-size: 25px;
+            color: white;
+        }
+        #p2{
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 250px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: white;
+        }
+        #b1{
+            margin-left: 300px;
+            margin-top: 10px;
+            background-color: blue;
+            color: white;
+            border: 2px inset wheat;
+            height: 30px;
+            width: 13%;
+            border-radius: 10px;
+            animation-name: b1;
+            animation-duration: 5s;
+            position: relative;
+        }
+        @keyframes b1{
+            0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 200px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+        }
+        #b1:hover{
+            background-color: green;
+        }
+        #b2{
+            margin-left: 5px;
+            background-color: blueviolet;
+            color: white;
+            border: 2px inset wheat;
+            height: 30px;
+            width: 19%;
+            border-radius: 10px;
+            animation-name: b1;
+            position: relative;
+            animation-duration: 6s;
+        }
+        @keyframes b1{
+            0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 200px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+        }
+        #b2:hover{
+            background-color: green;
+        }
+        h5{
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 300px;
+        }
+    </style>
+</head>
+<body background="addrestaurantimage.png" height="300px" width="40%">
+   
+   <h3>Zomato for business</h3>
+   <p id="p1">Partner with Zomato<br>at 0% commission for the 1st month! </p>
+   <p id="p2">And get ads worth INR 1500. Valid for new restaurant partners in select cities.</p>
+   <a href="register.html" target="_blank">
+    <button id="b1">Register your restaurant</button>
+   </a>
+   <a href="index.html" target="_blank">
+    <button id="b2">Login to view your existing restaurant</button>
+   </a>
+   <h5>Need help? Please email us at pcpavankumar97@zomato.com</h5>
+   
+</body>
+</html>

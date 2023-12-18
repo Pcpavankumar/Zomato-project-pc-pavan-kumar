@@ -1,0 +1,374 @@
+
+#f2{
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px green;
+    color: black;
+    border: 2px double green;
+    border-radius: 2px;
+    height: 22px;
+    width: 90%;
+    background-color: bisque;
+}
+#a1{
+    margin-left: 30px;
+    animation-name: a1;
+    animation-duration: 3s;
+    position: relative;
+    
+}
+@keyframes a1{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#a2{
+    margin-left: 40px;
+    
+    animation-name: a2;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes a2{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#a3{
+    margin-left: 40px;
+    
+    animation-name: a3;
+    animation-duration: 7s;
+    position: relative;
+    
+}
+@keyframes a3{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#a4{
+    margin-left: 40px;
+    
+    animation-name: a4;
+    animation-duration: 9s;
+    position: relative;
+    
+}
+@keyframes a4{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#a5{
+    margin-left: 40px;
+    
+    animation-name: a5;
+    animation-duration: 11s;
+    position: relative;
+    
+}
+@keyframes a5{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#a6{
+    margin-left: 40px;
+    
+    animation-name: a6;
+    animation-duration: 13s;
+    position: relative;
+    
+}
+@keyframes a6{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#a7{
+    margin-left: 40px;
+    
+    animation-name: a7;
+    animation-duration: 15s;
+    position: relative;
+    
+}
+@keyframes a7{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 100px; right: 0px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+#p1{
+    margin-left: 70px;
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-shadow: 1px 1px 1px black;
+
+}
+#f3{
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px blue;
+    color: black;
+    border: 2px double lightskyblue;
+    border-radius: 2px;
+    height: 22px;
+    width: 90%;
+    background-color: lightcoral;
+}
+#b1{
+    margin-left: 30px;
+    animation-name: b1;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes b1{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#b2{
+    margin-left: 40px;
+    
+    animation-name: b2;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes b2{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#b3{
+    margin-left: 40px;
+    
+    animation-name: b3;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes b3{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#b4{
+    margin-left: 40px;
+    
+    animation-name: b4;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes b4{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#b5{
+    margin-left: 40px;
+    
+    animation-name: b5;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes b5{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#b6{
+    margin-left: 40px;
+    
+    animation-name: b6;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes b6{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#b7{
+    margin-left: 40px;
+    
+    animation-name: b7;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes b7{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+#p2{
+    margin-left: 70px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-shadow: 1px 1px 1px grey;
+    animation-name: p2;
+    animation-duration: 9s;
+    position: relative;
+}
+@keyframes p2{
+    0%{background-color:none; right: 0px; top: 0px;}
+    50%{background-color:none; top: 0px; right: 100px;}
+   100%{background-color: none; top: 0px; right: 0px;}
+
+}
+#f4{
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px red;
+    color: black;
+    border: 2px double lightgoldenrodyellow;
+    border-radius: 2px;
+    height: 22px;
+    width: 90%;
+    background-color: lavender;
+}
+#c1{
+    margin-left: 30px;
+    animation-name: c1;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes c1{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px; }
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#c2{
+    margin-left: 40px;
+    
+    animation-name: c2;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes c2{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px; }
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#c3{
+    margin-left: 40px;
+    
+    animation-name: c3;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes c3{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px; }
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#c4{
+    margin-left: 40px;
+    
+    animation-name: c4;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes c4{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#c5{
+    margin-left: 40px;
+    
+    animation-name: c5;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes c5{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#c6{
+    margin-left: 40px;
+    
+    animation-name: c6;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes c6{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+
+
+#c7{
+    margin-left: 40px;
+    
+    animation-name: c7;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes c7{
+    0%{background-color:none; right: 0px; top: 0px;}
+            50%{background-color:none; top: 0px; right: 100px;}
+           100%{background-color: none; top: 0px; right: 0px;}
+}
+#p3{
+    margin-left: 70px;
+    color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-shadow: 1px 1px 1px grey;
+    animation-name: p3;
+    animation-duration: 8s;
+    position: relative;
+}
+@keyframes p3{
+    0%{background-color:none; right: 0px; top: 0px;}
+    50%{background-color:none; top: 0px; right: 100px;}
+   100%{background-color: none; top: 0px; right: 0px;}
+
+}

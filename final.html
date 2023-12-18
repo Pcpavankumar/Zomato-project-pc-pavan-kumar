@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato webpage</title>
+    <link rel="icon" href="zomatologo.jpeg">
+    <link rel="stylesheet" href="final.css">
+    <style>
+        #f1{
+            background-color: antiquewhite;
+            color: black;
+            margin-left: 20px;
+        }
+        #f1:hover{
+            background-color: yellow;
+            color: black;
+        }
+        #s1{
+            font-size: 60px;
+            margin-top: 80px;
+            margin-left: 500px;
+            text-shadow: 1px 1px 1px yellow;
+            color: black;
+            border: 8px outset lightcyan;
+            height: 15px;
+            width: 40%;
+            background-color: blue;
+            animation-name: z;
+            animation-duration: 10s;
+            position: relative;
+
+        }
+        
+        
+        #s2{
+            font-size: 40px;
+            margin-left: 0px;
+            text-shadow: 1px 1px 1px yellow;
+            color: black;
+            border: 8px outset blue;
+            height:60px;
+            width: 60%;
+            background-color: green;
+            animation-name: z1;
+            animation-duration: 10s;
+            position: relative;
+
+        }
+        
+        
+        #s3{
+            font-size: 40px;
+            margin-left: 0px;
+            text-shadow: 1px 1px 1px yellow;
+            color: black;
+            border: 8px outset lemonchiffon;
+            height:60px;
+            width: 60%;
+            background-color: blue;
+            animation-name: z3;
+            animation-duration: 10s;
+            position: relative;
+
+        }
+        
+        #s4{
+            font-size: 40px;
+            margin-left: 0px;
+            text-shadow: 1px 1px 1px yellow;
+            color: black;
+            border: 8px groove lightslategrey;
+            height:60px;
+            width: 60%;
+            background-color: orange;
+            animation-name: z4;
+            animation-duration:  10s;
+            position: relative;
+
+        }
+        
+        #s5{
+            font-size: 40px;
+            margin-left: 0px;
+            text-shadow: 1px 1px 1px yellow;
+            color: black;
+            border: 8px ridge lime;
+            height:60px;
+            width: 60%;
+            background-color: orchid;
+            animation-name: z5;
+            animation-duration:  10s;
+            position: relative;
+
+        }
+        
+        #s6{
+            font-size: 60px;
+            margin-left: 0px;
+            text-shadow: 1px 1px 1px yellow;
+            color: black;
+            border: 8px outset lightyellow;
+            height:15px;
+            width: 40%;
+            background-color: lightblue;
+            animation-name: z6;
+            animation-duration:  10s;
+            position: relative;
+
+        }
+        
+        #h{
+            margin-left: 65%;
+            height: 20px;
+            width: 25%;
+            color: black;
+            text-shadow: 1px 1px 1px green;
+            border: 3px outset lemonchiffon;
+            animation-name: h3;
+            animation-duration: 8s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+        @keyframes h3{
+            0%{background-color:blue; right: 0px; top: 0px;}
+            50%{background-color:yellow; top: 0px; right: 700px;}
+           100%{background-color: lightgoldenrodyellow; top: 0px; right: 0px;}
+        }
+    </style>
+</head >
+    <body bgcolor="peach"><br><br><br>
+         <span  id="s1">Z</span>
+         <span id="s2" >o</span>
+         <span id="s3">m</span>
+         <span id="s4">a</span>
+         <span id="s5">t</span> 
+         <span id="s6">o</span> 
+           <br><br><br><br><br><br>
+       
+       
+        
+        
+        <h3 style="margin-left: 37%; border: 3px inset wheat; height: 25px; width: 25%; background-color: aliceblue; text-align: center;
+            box-shadow: 2px 2px 2px black;"><b>Here the given list of cities for you</b></h3>
+            <br>
+        <form action="file:///C:/Users/PC%20Anil%20Kumar/OneDrive/Documents/Desktop/html%20codes/HTML%20project/ordered.html">
+            <fieldset style="margin-left: 10px; color: blue; text-shadow: 1px 1px 1px black;">
+                <legend><b>List of Cities </b></legend>
+                <label for=""><mark>Select City : </mark></label> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="Banl" name="List of cities">
+                <label for="Banl">Banglore</label>&nbsp;&nbsp;
+                <input type="checkbox" id="atp" name="List of cities">
+                <label for="atp">Anantapur</label>&nbsp;&nbsp;
+                <input type="checkbox" id="kdp" name="List of cities">
+                <label for="kdp">Kadapa</label>&nbsp;&nbsp;
+                <input type="checkbox" id="kur" name="List of cities">
+                <label for="kur">Kurnool</label>&nbsp;&nbsp;
+                <input type="checkbox" id="cht" name="List of cities">
+                <label for="cht">Chittor</label>&nbsp;&nbsp;
+            </fieldset>
+        </form>
+        <br><br><br>
+        <h4 style=" text-align: center; border: 4px outset yellow; height: 20px; background-color: azure; padding-bottom: 3px;">-Check out the given list of veg and Non-veg items and pick them which you want-</h4><br>
+        <form action="thanks for your ordering.html">
+                <label style="margin-left: 60px;" for=""><b>List of Veg items : </b></label>
+                <input list="Vegeterian food items" placeholder="Select">
+                <datalist id="Vegeterian food items">
+                    <option style="font-family: 'Trebuchet MS';">veg jalfrezi</option>
+                    <option style="font-family: 'Trebuchet MS';">Dhaba style</option>
+                    <option style="font-family: 'Trebuchet MS';">Bombay Aloo</option>
+                    <option style="font-family: 'Trebuchet MS';">Chana masala recipe</option>
+                    <option style="font-family: 'Trebuchet MS';">Paneer pasada recipe</option>
+                    <option style="font-family: 'Trebuchet MS';">vegetable curry recipe</option>
+                </datalist>
+                <label for="" style="margin-left: 30px;"><b>List of Non-Veg items : </b></label>
+                <input list="Non-Vegeterian food items" placeholder="Select" "="">
+                <datalist id="Non-Vegeterian food items">
+                    <option style="font-family: 'Trebuchet MS';">Butter Chicken</option>
+                    <option style="font-family: 'Trebuchet MS';">Biriyani</option>
+                    <option style="font-family: 'Trebuchet MS';">Tandoori chicken</option>
+                    <option style="font-family: 'Trebuchet MS';">Mutton curry</option>
+                    <option style="font-family: 'Trebuchet MS';">Eggs</option>
+                    <option style="font-family: 'Trebuchet MS';">Butter</option>
+                </datalist>
+                
+                <label for="" style="margin-left: 30px;"><b>Quantity : </b></label>
+                <input list="Quantity" placeholder="Select" "="">
+                <datalist id="Quantity">
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                </datalist>
+
+                
+                <input id="f1" type="submit"> 
+        </form><br><br>
+
+        <h2 style="color: blueviolet; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-shadow: 2px 2px 2px yellow; box-shadow: 2px inset grey;">
+            <b><u><marquee behavior="" direction="left">Inspiration for <sub>your</sub> first order</marquee></u></b></h2><br>
+        <h3 id="h"><b>Pick your favourite restaurant item </b></h3><br>
+        <h1 style="margin-left: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large; text-shadow: 2px 2px 2px wheat;">Choose your favourite restaurant  foodies </h1>
+        <h3 id="f2">Pc restaurant:</h3>
+        
+        <a id="a1" href="pizza.html" target="_blank"><img src="pizza image.avif" alt="pizza" height="100px" width="10%">
+        </a>
+        <a id="a2" href="burger.html" target="_blank"><img src="burger image.avif" alt="burger" height="100px" width="10%">
+        </a>
+        
+        <a id="a3" href="chicken.html" target="_blank"><img src="chicken image.webp" alt="chicken" height="100px" width="10%">
+        </a> 
+        
+        <a id="a4" href="biriyani.html" target="_blank"><img src="biriyani image.avif" alt="biriyani" height="100px" width="10%">
+        </a>
+        
+        <a id="a5" href="Noodles.html" target="_blank"><img src="noodles.avif" alt="noodles" height="100px" width="10%">
+        </a>
+       
+        <a id="a6" href="rolles.html" target="_blank"><img src="rolls image.avif" alt="rolles" height="100px" width="10%">
+        </a>
+       
+        <a id="a7" href="dosa.html" target="_blank"><img src="dosa.avif" alt="dosa" height="100px" width="10%">
+        </a>
+        <p id="p1">
+             Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+             Burger &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Chicken &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Biriyani &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Noodles&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+             Rolles &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+             Dosa </p> <br><br><br>
+
+             <h3 id="f3">Balu restaurant:</h3>
+        
+        <a id="b1" href="pizza.html" target="_blank"><img src="pizza1.jpeg" alt="pizza" height="100px" width="10%">
+        </a>
+        <a id="b2" href="burger.html" target="_blank"><img src="burger1.jpeg" alt="burger" height="100px" width="10%">
+        </a>
+        
+        <a id="b3" href="chicken.html" target="_blank"><img src="chicken1.webp" alt="chicken" height="100px" width="10%">
+        </a> 
+        
+        <a id="b4" href="biriyani.html" target="_blank"><img src="biriyani1.avif" alt="biriyani" height="100px" width="10%">
+        </a>
+        
+        <a id="b5" href="Noodles.html" target="_blank"><img src="noodles2.webp" alt="noodles" height="100px" width="10%">
+        </a>
+       
+        <a id="b6" href="rolles.html" target="_blank"><img src="rolles1.webp" alt="rolles" height="100px" width="10%">
+        </a>
+       
+        <a id="b7" href="dosa.html" target="_blank"><img src="Dosa1.jpg" alt="dosa" height="100px" width="10%">
+        </a>
+        <p id="p2">
+             Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+             Burger &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Chicken &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Biriyani &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Noodles&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+             Rolles &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+             Dosa </p> <br><br><br>
+
+             <h3 id="f4">Habeeb restaurant:</h3>
+        
+        <a id="c1" href="pizza.html" target="_blank"><img src="pizza2.jpeg" alt="pizza" height="100px" width="10%">
+        </a>
+        <a id="c2" href="burger.html" target="_blank"><img src="burger2.jpeg" alt="burger" height="100px" width="10%">
+        </a>
+        
+        <a id="c3" href="chicken.html" target="_blank"><img src="chicken2.webp" alt="chicken" height="100px" width="10%">
+        </a> 
+        
+        <a id="c4" href="biriyani.html" target="_blank"><img src="biriyani2.jpeg" alt="biriyani" height="100px" width="10%">
+        </a>
+        
+        <a id="c5" href="Noodles.html" target="_blank"><img src="noodles2.webp" alt="noodles" height="100px" width="10%">
+        </a>
+       
+        <a id="c6" href="rolles.html" target="_blank"><img src="rolles2.jpg" alt="rolles" height="100px" width="10%">
+        </a>
+       
+        <a id="c7" href="dosa.html" target="_blank"><img src="dosa2.jpg" alt="dosa" height="100px" width="10%">
+        </a>
+        <p id="p3">
+             Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+             Burger &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+             Chicken &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+             Biriyani &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+             Noodles&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             Rolles &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+             Dosa </p> <br><br><br><br><br><br>
+
+            <a href="https://play.google.com/store/apps/details?id=com.application.zomato" target="_blank"><img src="./final_files/mobile.avif" alt="" height="550px" width="70%" align="right">
+            </a>
+            <br><br><br><br><br><br>
+            
+            <a style="margin-left: 80px;" href="https://play.google.com/store/search?q=zomat&amp;c=apps" target="_blank"><img src="playstore.webp" alt="" height="70px" width="13%">
+            </a><br>
+            
+           <br><br>
+            
+            <a style="margin-left: 80px;" href="https://apps.apple.com/us/app/zomato-food-delivery-dining/id434613896" target="_blank"><img src="./final_files/appstore.webp" alt="" height="70px" width="13%">
+            </a>
+           
+            <video style="margin-left: 40px; height: 300px; width: 90%;" src="zomato video.mp4" alt="video" controls="" autoplay="" height="200px" width="30%" >video</video><br><br>
+            
+            
+            <h2 style="color: chartreuse;text-shadow: 1px 1px 1px blue;"><b><marquee behaviour="" direction="right">Here the given Top <sup>brands</sup> for you</marquee></b></h2><br>
+            <h3 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;color: cyan;text-shadow: 1px 1px 1px yellow;text-decoration: underline;"><b><i> Here is the <small>"given"</small> list of top <big>"brands"</big> for you</i></b></u></h3><br><br>
+            <fieldset>
+                <legend>Zomato</legend>
+            
+            <marquee><img  style="padding-left: 0px;" src="./final_files/kfc.avif" alt="kfc" height="100px" width="10%">
+            <img style="padding-left: 80px;" src="./final_files/dominos pizza.avif" alt="dominos" height="100px" width="10%">
+            <img style="padding-left: 75px;" src="./final_files/pizza hut.avif" alt="pizza" height="100px" width="10%">
+            <img style="padding-left: 84px;" src="./final_files/mc dowels.avif" alt="dowels" height="100px" width="10%">
+            <p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                KFC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                Dominos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                Mc Delivery &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </p></marquee>
+            </fieldset><br><br>
+            <a href="index.html">
+                <button>Home</button>
+           </a>
+           
+          
+          
+          
+          <a href="addrestaurant.html">
+              <button> Add Restaurant</button>
+          </a><br>
+            <img src="screenshot.png" alt="" height="400px" width="100%">
+            
+    
+    </body>
+</html>
